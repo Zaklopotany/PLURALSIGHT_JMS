@@ -17,13 +17,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.main.appclient:gf-client:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.appclient:gf-client-module:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-core:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-api:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.javassist:javassist:3.22.0-CR2" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-utils:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.common:common-util:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.ejb:ejb-full-container:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.ejb:ejb-container:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.ejb:ejb-client:5.0" level="project" />
@@ -31,8 +24,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.external:asm-all:6.0_ALPHA" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.common:container-common:5.0" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:4.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.common:internal-api:5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.admin:config-api:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.admin:admin-util:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.security:security-services:5.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.9" level="project" />
@@ -63,25 +54,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.external:libpam4j:1.9" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.security:ejb.security:5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.common:glassfish-api:5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.common:scattered-archive-api:5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:config-types:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-config:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.jvnet:tiger-types:1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.2.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-runlevel:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2:class-model:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.5.0-b44" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.grizzly:nucleus-grizzly-all:5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-portunif:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http2:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http-server:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.grizzly:grizzly-config:5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.external:management-api:3.2.1-b002" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.security:webservices.security:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.core:kernel:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.flashlight:flashlight-framework:5.0" level="project" />
@@ -114,7 +86,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.main.security:websecurity:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.webservices:jsr109-impl:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http-servlet:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.main.common:glassfish-naming:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.connectors:work-management:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.transaction:transaction-internal-api:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.gmbal:gmbal:4.0.0-b001" level="project" />
@@ -198,6 +169,35 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: org.glassfish.main.common:glassfish-naming:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-utils:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-api:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:config-types:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-config:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet:tiger-types:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.2.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.22.0-CR2" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-runlevel:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2:class-model:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.5.0-b44" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.common:glassfish-api:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.common:scattered-archive-api:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.grizzly:nucleus-grizzly-all:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-portunif:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http2:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http-server:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.grizzly:grizzly-config:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.external:management-api:3.2.1-b002" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.common:internal-api:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.admin:config-api:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.main.common:common-util:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.mq:imqjmsra:5.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.mq:imqbroker:5.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.mq:imqutil:5.1" level="project" />

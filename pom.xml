@@ -55,12 +55,18 @@
             <version>5.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.glassfish.mq/imqjmsra -->
         <dependency>
+            <groupId>org.glassfish.main.common</groupId>
+            <artifactId>glassfish-naming</artifactId>
+            <version>5.0</version>
+        </dependency>
+
+<!--         https://mvnrepository.com/artifact/org.glassfish.mq/imqjmsra -->
+     <dependency>
             <groupId>org.glassfish.mq</groupId>
             <artifactId>imqjmsra</artifactId>
             <version>5.1</version>
-        </dependency>
+       </dependency>
         <!-- https://mvnrepository.com/artifact/javax.jms/javax.jms-api -->
         <dependency>
             <groupId>javax.jms</groupId>

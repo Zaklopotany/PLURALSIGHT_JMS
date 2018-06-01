@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import javax.jms.*;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
+import java.util.Properties;
 
 /**
  * Created by mzukowski on 31/05/2018.
@@ -24,18 +25,29 @@ public class Main {
         ConnectionFactory connectionFactory;
         Connection connection = null;
         try {
-            InitialContext initialContext = new InitialContext();
-
-            Queue queue = (Queue) initialContext.lookup("jms/P2PQueue");
-            connectionFactory = (QueueConnectionFactory) initialContext.lookup("jms/__defaultConnectionFactory");
-            //in jms 1.1
-            // 2 more thing to create connection using connection factory and from connection we get session
-            connection = connectionFactory.createConnection();
-            Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-
-            MessageProducer messageProducer = session.createProducer(queue);
-            TextMessage textMessage = session.createTextMessage(args[0]);
-            messageProducer.send(textMessage);
+            Properties props = new Properties();
+            props = new Properties();
+            props.setProperty("java.naming.factory.initial","com.sun.enterprise.naming.SerialInitContextFactory");
+            props.setProperty("java.naming.factory.url.pkgs","com.sun.enterprise.naming");
+            props.setProperty("java.naming.factory.state","com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl");
+            // Create the initial context for remote JMS server
+            InitialContext cntxt = new InitialContext(props);
+            System.out.println("Context Created");
+            connectionFactory = (QueueConnectionFactory) cntxt.lookup("jms/__defaultConnectionFactory");
+            System.out.println("factory");
+            Queue queue = (Queue) cntxt.lookup("jms/P2PQueue");
+//
+//            InitialContext initialContext = new InitialContext();
+//
+//            //in jms 1.1
+//            // 2 more thing to create connection using connection factory and from connection we get session
+//
+//            connection = connectionFactory.createConnection();
+//            Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+//
+//            MessageProducer messageProducer = session.createProducer(queue);
+//            TextMessage textMessage = session.createTextMessage(args[0]);
+//            messageProducer.send(textMessage);
 
             logger.info("Message produced");
 
@@ -43,10 +55,10 @@ public class Main {
         } catch (NamingException e) {
             e.printStackTrace();
             logger.debug("problem");
-        } catch (JMSException e) {
+        } /*catch (JMSException e) {
             logger.debug("problem1");
             e.printStackTrace();
-        } finally {
+        }*/ finally {
             if (connection != null) try {
                 connection.close();
             } catch (JMSException e) {
