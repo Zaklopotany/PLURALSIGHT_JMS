@@ -53,20 +53,30 @@
             <groupId>org.glassfish.main.appclient</groupId>
             <artifactId>gf-client</artifactId>
             <version>5.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/mzukowski/Downloads/java_ee_sdk-8/glassfish5/glassfish/lib/gf-client.jar</systemPath>
         </dependency>
 
+        <dependency>
+            <groupId>org.glassfish.mq</groupId>
+            <artifactId>imqjmsra</artifactId>
+            <version>5.0</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/mzukowski/Downloads/java_ee_sdk-8/glassfish5/glassfish/lib/install/applications/jmsra/imqjmsra.jar</systemPath>
+        </dependency>
+<!--
         <dependency>
             <groupId>org.glassfish.main.common</groupId>
             <artifactId>glassfish-naming</artifactId>
             <version>5.0</version>
-        </dependency>
+        </dependency>-->
 
 <!--         https://mvnrepository.com/artifact/org.glassfish.mq/imqjmsra -->
-     <dependency>
+     <!--<dependency>
             <groupId>org.glassfish.mq</groupId>
             <artifactId>imqjmsra</artifactId>
             <version>5.1</version>
-       </dependency>
+       </dependency>-->
         <!-- https://mvnrepository.com/artifact/javax.jms/javax.jms-api -->
         <dependency>
             <groupId>javax.jms</groupId>
